@@ -1,0 +1,79 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+
+/*nav*/
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 42px;
+}
+nav.menu a{
+    margin-right: 20px;
+}
+img.logo-border{
+height: 32px;
+margin-left: 20px;
+}
+img.logo-complete{
+display: none;
+}
+a.link-login{
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+font: 12px;
+text-decoration: none;
+letter-spacing: 3px;
+}
+a.link-search{
+display: none;
+}
+a.link-news{
+    display: none;
+}
+a.link-subs{
+text-transform: uppercase;
+background-color: black;
+color: white;
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 3px;
+padding: 11px;
+}
+a.link-menu{
+    display: none;
+}
+a.link-arrows{
+color: black;
+}
+/*header*/
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    height: 70px;
+    font-weight: bold;
+    font-size: 65px;
+    padding: 120px;
+    line-height: 210px;
+}
+.header-info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
