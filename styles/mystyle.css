@@ -166,7 +166,7 @@ background-size: cover;
     background-color: white;
     color: black;
     margin-top: -3px;
-    padding: 30px
+    padding: 30px;
 }
 .secondary-news:hover img{
     transform: scale(1.1);
@@ -179,8 +179,12 @@ height: 300px;
 width: 500px;
 }
 /*todays-picks*/
+.todays-picks-item{
+    display: flex;
+}
 .todays-picks-item img{
-    width:100%
+    width:400px;
+    height:200px;
 }
 @media(min-width:768px){
     main{
@@ -192,8 +196,11 @@ width: 500px;
     }
 main .news{
     width: 60%;
-}
- main section{
+    }
+main section{
     width: 40%;
- }
+    }
+}
+.todays-picks{
+
 }
